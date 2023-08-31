@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo h1 :first-of-type {
+    color: #ea4c89;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo span {
+    font-weight: 650;
+}
+
+.search-text input {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 13px;
+    border-right: none;
+    width: 70%;
+    outline: none;
+}
+
+.search-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.search-text button {
+    padding: 10px;
+    margin: -3px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    background-color: #fff;
+    color: #ea4c89;
+}
+
+.button-style i {
+    padding-right: 10px;
+}
+
+.list-header {
+    background-color: #ea4c89;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #ddd;
+}
+
+.list-header h4 {
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.list-header i {
+    color: white;
+}
+
+.ulList {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    border: 1px solid #ddd;
+}
+
+.banner-area .ulList li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 50px;
+}
+
+.banner-area .ulList li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-menu {
+    display: flex;
+
+}
+
+
+
+.main-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-menu li {
+    list-style: none;
+}
+
+.left-menu-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nestedproductdetails {
+    padding: 0;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 10px #ddd;
+    line-height: 3;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #ea4c89;
+    font-weight: 500;
+}
+
+.nestedproductdetails li a {
+    color: white;
+}
+
+.dropdown-head:hover .nestedproductdetails {
+    display: block;
+}
+
+.login a:hover {
+    color: #ea4c89;
+}
+
+.register a:hover {
+    color: #ea4c89;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.banner-img {
+    position: relative;
+    width: 100%;
+    transform: scaleX(-1);
+    max-height: 450px;
+    margin-left: 40px;
+    margin-top: 10px;
+    object-fit: cover;
+    /* Use 'contain' to maintain aspect ratio and fit the whole image within the container */
+}
+
+.heading-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    right: 250px;
+    line-height: 7px;
+
+}
+
+.heading-div h3 {
+    font-size: 30px;
+}
+
+.heading-div h4 {
+    font-size: 40px;
+}
+
+.heading-div a {
+    padding: 20px 15px;
+    background-color: #ea4c89;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.featureMain {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 21px;
+    border-radius: 2px;
+    color: white;
+    background-color: #ea4c89;
+}
+
+.wrap i {
+    padding-right: 10px;
+
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product .productwrapper-kids {
+    height: 450px;
+    width: 30%;
+    border: 1px solid #ddd;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.productwrapper-kids img {
+    width: 100%;
+    height: 75%;
+    object-fit: contain;
+
+}
+
+.offer-banner {
+    display: flex;
+    /* Use flex display for better alignment */
+}
+
+.wid-50 {
+    width: 50%;
+    position: relative;
+    background-color: rgb(201, 224, 241);
+
+    margin: 60px 15px;
+    /* Add margin here */
+}
+
+.johny {
+    max-width: 100%;
+    /* Change to 100% to make the image responsive */
+    max-height: calc(100% - 20px);
+    /* Subtract the margin to fit the image */
+    display: block;
+    position: absolute;
+    bottom: 0;
+    /* Align the image to the bottom of the container */
+}
+
+.div-text {
+    text-align: right;
+    padding: 30px;
+    /* Add some padding for better separation */
+    box-sizing: border-box;
+    /* Include padding in the element's total width */
+}
+
+.div-text h3 {
+    font-size: 20px;
+}
+
+.div-text h4 {
+    font-size: 30px;
+}
+
+.div-text button {
+    padding: 15px;
+    background-color: #ea4c89;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mainwrapper {
+    width: 50%;
+    position: relative;
+    background-color: lightgrey;
+
+    margin: 60px 15px;
+    /* Add margin here */
+}
